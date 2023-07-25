@@ -12,8 +12,8 @@ pool:
 
 variables:
   NODE_VERSION: '14.x'
-  NPM_CONFIG_CACHE: $(Pipeline.Workspace)/.npm
-  NPM_REGISTRY: 'https://registry.npmjs.org/'
+  #NPM_CONFIG_CACHE: $(Pipeline.Workspace)/.npm
+#  NPM_REGISTRY: 'https://registry.npmjs.org/'
 
 steps:
   - task: NodeTool@0
