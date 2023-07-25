@@ -26,8 +26,8 @@ steps:
     displayName: 'Build'
 
   - task: PublishBuildArtifacts@1
-    inputs:
-      PathtoPublish: 'dist'
-      ArtifactName: 'drop'
-      publishLocation: 'Container'
-    displayName: 'Publish Artifact'
+  inputs:
+   PathtoPublish: 'dist'
+   ArtifactName: 'drop'
+   publishLocation: 'Container'
+  displayName: 'Publish Artifact'
